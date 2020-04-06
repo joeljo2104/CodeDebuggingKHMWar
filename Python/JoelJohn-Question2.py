@@ -9,22 +9,8 @@ for i in range(int(input())):  # IntegerInput
             if j == 0:  # Added =
                 count += 1
             elif word[j+1] in vowels:  # Removed Bracket
-                count += 1
+                count += 1 #Changed Increment
                 break
             else:
-                count += 1
+                count += 1 #Changed Increment
     print(count)
-
-'''
-SAMPLE INPUT-1
-	 3
-    	radeon
-    	coir
-    	malayalam
-   
-
-SAMPLE OUTPUT:1
-  2
-  1
-  4
-'''
