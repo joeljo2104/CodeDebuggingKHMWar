@@ -29,16 +29,3 @@ for _ in range(t):
 	sorted(leaves)
 	re=[m[i]-gcd(m[i],factors[i]) for i in leaves]
 	print(*re)
-'''
-SAMPLE  INPUT-1
-1
-5
-1 2
-2 5
-1 3
-3 4
-2 3 4 6 7
-1 2 3 2 10
-SAMPLE OUTPUT:1
-0 9
-'''
