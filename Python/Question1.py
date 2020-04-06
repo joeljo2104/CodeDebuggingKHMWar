@@ -5,9 +5,9 @@ n = int(input("Enter number of elements : "))
 Input = [int(s) for s in input().split()] #Changed method of input
     #Input.append(ele) Commment
 if(Input[0] < 0):
-    prev = 1
+    prev =1
 else:
-    prev = -1
+    prev =-1
 ans = 0 #Ans variable created 
 for elem in Input:
     if elem == 0: #Added =
